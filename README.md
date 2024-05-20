@@ -82,7 +82,7 @@ With the transformed data and 3 axes only, now we can move to the unspervised me
 
 K-Means Clustering is the first method used. A set of number, from k=1 to k=9, is set to be the number of clusters and see which number is the best, with the use of the Elbow method.
 
-For each k, random k points are selected in the dataset, for calculating the mean Euclidean distance and variance for each selected point. Note that the k points which give the lowest total variance are selected for each k.
+For each k, random k points are selected in the dataset, for calculating the mean Euclidean distance and variance (or inertia, if preferred) for each selected point. Note that the k points which give the lowest total variance are selected for each k.
 
 ![alt text](images/d1.jpg)
 
@@ -99,7 +99,7 @@ Now it is the time to see the result, by performing k-means method with k=6 and 
 ![alt text](images/d2.jpg)
 ![alt text](images/3d_kmean.jpg)
 
-The result can be understand in a better way: using projection of the above 3d scatter plots. Three 2d scatter plots: $2^{nd}$ vs $3^{rd}$, $3^{rd}$ vs $1^{st}$ and $1^{st}$ vs $2^{nd}$
+The result can be understand in a better way: using projection of the above 3d scatter plots. Three 2d scatter plots with different combination of principal components ( $2^{nd}$ vs $3^{rd}$, $3^{rd}$ vs $1^{st}$ and $1^{st}$ vs $2^{nd}$ ) are shown below. It is obvious that all clusters are separated in at least one of the principal component combination.
 
 ![alt text](images/d3.jpg)
 ![alt text](images/2_vs_3_PCproj.jpg)
