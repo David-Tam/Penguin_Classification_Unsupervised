@@ -23,7 +23,12 @@ Let's do this.
 *****************************************************************************************************************
 # 1. Data Access and Processing
 
+Let's look at the original dataset, there are 5 variables, which are their biological features:
 ![alt text](images/a1.jpg)
+
+First step to clean the dataset is to see if there is any outliner(s). Through the statistics info, the minimum and maximum flipper length do not make sense, while one is negative and the other one is much higher than the mean.
+
+This is more obvious in a boxplot:
 ![alt text](images/a2.jpg)
 ![alt text](images/boxplot.jpg)
 
