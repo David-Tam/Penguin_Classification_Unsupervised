@@ -76,9 +76,20 @@ To simplify the calculation, all variables are scaled with the standard normal d
 After the transformation, the data was fitted and the 3 principal components were chosen so that 95% of the variance can be explained by the data:
 ![alt text](images/c2.jpg)
 
+With the transformed data and 3 axes only, now we can move to the unspervised methods.
+
 # 4. K-Means Clustering
+
+K-Means Clustering is the first method used. A set of number, from k=1 to k=9, is set to be the number of clusters and see which number is the best, with the use of the Elbow method.
+
+For each k, random k points are selected in the dataset, for calculating the mean Euclidean distance and variance for each selected point. Note that the k points which give the lowest total variance are selected for each k.
+
 ![alt text](images/d1.jpg)
+
+To select the reasonable k, as mentioned, Elbow method is used. The plot for the change in lowest variance, from k to k+1 is shown. It is obvious that from k=5 to k=6, the change in variance is still large while the change is low from k=6 to k=7:
 ![alt text](images/Change_in_Inertia.jpg)
+
+And also this can be visualized by just plotting the lowest variance for each k. The variance keeps almost the same after k=6. As a result, we use k=6 as the number of cluster.
 ![alt text](images/Interia_Trend.jpg)
 ![alt text](images/d2.jpg)
 ![alt text](images/3d_kmean.jpg)
