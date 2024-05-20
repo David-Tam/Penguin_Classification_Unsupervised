@@ -99,7 +99,7 @@ Now it is the time to see the result, by performing k-means method with k=6 and 
 ![alt text](images/d2.jpg)
 ![alt text](images/3d_kmean.jpg)
 
-The result can be understand in a better way: using projection of the above 3d scatter plots. Three 2d scatter plots: $2^{nd}$-$3^{rd}$, $3^{rd}$-$1^{st}$ and $1^{st}$-$2^{nd}$
+The result can be understand in a better way: using projection of the above 3d scatter plots. Three 2d scatter plots: $2^{nd}$ vs $3^{rd}$, $3^{rd}$ vs $1^{st}$ and $1^{st}$ vs $2^{nd}$
 
 ![alt text](images/d3.jpg)
 ![alt text](images/2_vs_3_PCproj.jpg)
