@@ -46,12 +46,24 @@ And change the columns into binary integer, now let's see the statistics info:
 ![alt text](images/a6.jpg)
 
 # 2. Data Visualization
+
+A simple pie chart can help us understand the gender situation in the dataset:
 ![alt text](images/b1.jpg)
 ![alt text](images/gender.jpg)
+
+As per the continuous variables, a for-loop is used to see the distributions of each variable:
 ![alt text](images/b2.jpg)
+
+How long are the culmens?
 ![alt text](images/culmen_length_mm.jpg)
+
+How deep are the culmens?
 ![alt text](images/culmen_depth_mm.jpg)
+
+How about the flippers?
 ![alt text](images/flipper_length_mm.jpg)
+
+The birds' body mass?
 ![alt text](images/body_mass_g.jpg)
 
 # 3. Principal Component Analysis (PCA)
