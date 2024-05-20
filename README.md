@@ -87,12 +87,20 @@ For each k, random k points are selected in the dataset, for calculating the mea
 ![alt text](images/d1.jpg)
 
 To select the reasonable k, as mentioned, Elbow method is used. The plot for the change in lowest variance, from k to k+1 is shown. It is obvious that from k=5 to k=6, the change in variance is still large while the change is low from k=6 to k=7:
+
 ![alt text](images/Change_in_Inertia.jpg)
 
-And also this can be visualized by just plotting the lowest variance for each k. The variance keeps almost the same after k=6. As a result, we use k=6 as the number of cluster.
+This can also be visualized by just plotting the lowest variance for each k. The variance keeps almost the same after k=6. As a result, we use k=6 as the number of cluster.
+
 ![alt text](images/Interia_Trend.jpg)
+
+Now it is the time to see the result, by performing k-means method with k=6 and the tranformed dataset. All data are now classified and can be shown in a 3d scatter plot with 3 principal components chosen:
+
 ![alt text](images/d2.jpg)
 ![alt text](images/3d_kmean.jpg)
+
+The result can be understand in a better way: using projection of the above 3d scatter plots. Three 2d scatter plots: $2^{nd}$-$3^{rd}$, $3^{rd}$-$1^{st}$ and $1^{st}$-$2^{nd}$
+
 ![alt text](images/d3.jpg)
 ![alt text](images/2_vs_3_PCproj.jpg)
 ![alt text](images/3_vs_1_PCproj.jpg)
