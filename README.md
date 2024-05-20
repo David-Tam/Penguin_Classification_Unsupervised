@@ -11,17 +11,17 @@ Please not that only **white** wine data is used here.
 The project will be presented into two parts: 1. Binary classification. 2. Mulitclass Classification
 In general, the structure follows:
 
-**1. Data Access and threshold setting**
+**1. Data Access and Processing**
 
 **2. Data Visualization**
    
-**3. Data Preparation**
+**3. Principal Component Analysis (PCA)**
    
-**4. Logistic Regression Approach**   
+**4. K-Means Clustering**   
 
-**5. Random Forest Approach**   
+**5. Hierarchical Clustering**   
 
-**6. Support Vector Classifier Approach**
+**6. Density-Based Spatial Clustering of Applications with Noise (DBSCAN)**
 
 
 # 1. Data Access and Processing
