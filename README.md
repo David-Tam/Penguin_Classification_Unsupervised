@@ -30,33 +30,34 @@ The feature of this project is returning "good/bad" label for each wine, and the
 One of the feature is "quality" (from 1 to 10, where 10 is perfect) of the wine, we simply set a threshold on this feature to distinguish the label of the wine.
 
 First of all, we type in a number and set the threshold:
-![alt text](images/a1.png)
-![alt text](images/a2.png)
-![alt text](images/a3.png)
-![alt text](images/a4.png)
-![alt text](images/a5.png)
-![alt text](images/a6.png)
+![alt text](images/a1.jpg)
+![alt text](images/a2.jpg)
+![alt text](images/a3.jpg)
+![alt text](images/a4.jpg)
+![alt text](images/a5.jpg)
+![alt text](images/a6.jpg)
 
 
-![alt text](images/b1.png)
-![alt text](images/b2.png)
+![alt text](images/b1.jpg)
+![alt text](images/b2.jpg)
 
 
-![alt text](images/c1.png)
-![alt text](images/c2.png)
+![alt text](images/c1.jpg)
+![alt text](images/c2.jpg)
 
 
-![alt text](images/d1.png)
-![alt text](images/d2.png)
-![alt text](images/d3.png)
-![alt text](images/e1.png)
-![alt text](images/e2.png)
-![alt text](images/e3.png)
+![alt text](images/d1.jpg)
+![alt text](images/d2.jpg)
+![alt text](images/d3.jpg)
+
+![alt text](images/e1.jpg)
+![alt text](images/e2.jpg)
+![alt text](images/e3.jpg)
 
 
-![alt text](images/f1.png)
-![alt text](images/f2.png)
-![alt text](images/f3.png)
-![alt text](images/f4.png)
-![alt text](images/f5.png)
-![alt text](images/f6.png)
+![alt text](images/f1.jpg)
+![alt text](images/f2.jpg)
+![alt text](images/f3.jpg)
+![alt text](images/f4.jpg)
+![alt text](images/f5.jpg)
+![alt text](images/f6.jpg)
