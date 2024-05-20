@@ -129,6 +129,9 @@ Now lets look at the result!
 The results shows that Hierarchical Clustering gives 4 clusters. Although this result is different than that of the k-means method, the Hierarchical Clustering still seems work reasonalbe, which each cluster is completely isolated and not overlapping with others.
 
 # 6. Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
+
+The last method is DBSCAN. The general idea is to see each instance as a center of circle, if a minimum number of points are within the circle with a certain radius, that instance is seen as "core points". All "core points" with their extended points (or "border points") are considered as a cluster.
+
 ![alt text](images/f1.jpg)
 ![alt text](images/f2.jpg)
 ![alt text](images/N_clusters_DBSCAN.jpg)
