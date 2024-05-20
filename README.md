@@ -26,15 +26,23 @@ Let's do this.
 Let's look at the original dataset, there are 5 variables, which are their biological features:
 ![alt text](images/a1.jpg)
 
-First step to clean the dataset is to see if there is any outliner(s). Through the statistics info, the minimum and maximum flipper length do not make sense, while one is negative and the other one is much higher than the mean.
+First step to clean the dataset is to see if there is any outliner(s). Through the statistics info, the minimum and maximum flipper length do not make sense, while one is negative and the other one is much higher than the mean. On the other hand, the numerical variables seems fine.
+
+![alt text](images/a2.jpg)
 
 This is more obvious in a boxplot:
-![alt text](images/a2.jpg)
 ![alt text](images/boxplot.jpg)
 
+Two conditional statements would take care of the outliners:
 ![alt text](images/a3.jpg)
+
+Now for the gender column, conditional statement for taking out instance that the gender of penguin is not male and female. We see that one more instance is taken out. Now, the dataset is ready:
 ![alt text](images/a4.jpg)
+
+Next step is to split the gender column into male and female column:
 ![alt text](images/a5.jpg)
+
+And change the columns into binary integer, now let's see the statistics info:
 ![alt text](images/a6.jpg)
 
 # 2. Data Visualization
