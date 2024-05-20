@@ -109,11 +109,24 @@ The result can be understand in a better way: using projection of the above 3d s
 It is obvious that each cluster is separated from others in at least one of the principal component combination. If one of the cluster cannot be separated from others in all combination, wrong k is chosen (may be those overlapping clusters are indeed one group!). The result shows k-means clustering method works well when k=6 is used.
 
 # 5. Hierarchical Clustering
+
+The second unsupervised method used is Hierarchical Clustering. The idea of Hierarchical Clustering is simply comparing ecah instance with other instances. Once the smallest comparison is found, the two instances will be grouped into one. This process repeats when all grouping is done.
+
+A dendrogram can be used to show the grouping:
+
 ![alt text](images/e1.jpg)
 ![alt text](images/den.jpg)
+
+And it is clear that the data can be group into 4 clusters. Now fit the data with Hierarchical Clustering:
+
 ![alt text](images/e2.jpg)
+
+Now lets look at the result!
+
 ![alt text](images/e3.jpg)
 ![alt text](images/hc.jpg)
+
+The results shows that Hierarchical Clustering gives 4 clusters. Although this result is different than that of the k-means method, the Hierarchical Clustering still seems work reasonalbe, which each cluster is completely isolated and not overlapping with others.
 
 # 6. Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
 ![alt text](images/f1.jpg)
