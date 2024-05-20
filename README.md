@@ -1,15 +1,8 @@
 # Penguins_Unsupervised_Classification
 
-This is a project of a graduated level machine learning course that aims to classify good/bad wine base on costum setting (by the user) on the wine quality. The project was originally finished in R (check it out!) but it was improved and written in python language (shown here).
+This is a project that aims to group penguins with 3 unsupervised machine learning methods: K-Means Clustering, Hierarchical Clustering and  Density-Based Spatial Clustering of Applications with Noise (DBSCAN). The dataset, can be found in the current directory in csv format.
 
-The description and the datasets can be accessed here:
-
-https://archive.ics.uci.edu/dataset/186/wine+quality
-
-Please not that only **white** wine data is used here.
-
-The project will be presented into two parts: 1. Binary classification. 2. Mulitclass Classification
-In general, the structure follows:
+The project is presented in the following structure:
 
 **1. Data Access and Processing**
 
