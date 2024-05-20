@@ -32,6 +32,8 @@ One of the feature is "quality" (from 1 to 10, where 10 is perfect) of the wine,
 First of all, we type in a number and set the threshold:
 ![alt text](images/a1.jpg)
 ![alt text](images/a2.jpg)
+![alt text](images/boxplot.jpg)
+
 ![alt text](images/a3.jpg)
 ![alt text](images/a4.jpg)
 ![alt text](images/a5.jpg)
