@@ -144,8 +144,17 @@ A pivot table is used to show the number of cluster for each radius-minimum poin
 Another pivot table for silhouette score from each radius-minimum point combination:
 
 ![alt text](images/Sil_score_DBSCAN.jpg)
+
+From the tables, the parameters are clear now. Also, it is determined that there are 5 clusters:
+
 ![alt text](images/f3.jpg)
+
+Let's run DBSCAN again with the above parameters and see the size for each clusters. We notice there is cluster -1, which is the outliner, with a size of 2:
+
 ![alt text](images/f4.jpg)
 ![alt text](images/f5.jpg)
+
+The final result of DBSCAN, again, can be shown with a 3D scatter plot with the principal components. The outliners are shown in the "+" style:
+
 ![alt text](images/f6.jpg)
 ![alt text](images/DBSCAN.jpg)
