@@ -24,13 +24,8 @@ In general, the structure follows:
 **6. Support Vector Classifier Approach**
 
 
-# 1. Binary Classification
+# 1. Data Access and Processing
 
-The feature of this project is returning "good/bad" label for each wine, and the "standard" is set by the user. The reason behind is simply: common people might not be able to quantify the quality for a bottle of wine (like a professonal wine taster!), this might help them to roughly know which wine might fit their need in the future.
-
-One of the feature is "quality" (from 1 to 10, where 10 is perfect) of the wine, we simply set a threshold on this feature to distinguish the label of the wine.
-
-First of all, we type in a number and set the threshold:
 ![alt text](images/a1.jpg)
 ![alt text](images/a2.jpg)
 ![alt text](images/boxplot.jpg)
@@ -40,7 +35,7 @@ First of all, we type in a number and set the threshold:
 ![alt text](images/a5.jpg)
 ![alt text](images/a6.jpg)
 
-
+# 2. Data Visualization
 ![alt text](images/b1.jpg)
 ![alt text](images/gender.jpg)
 ![alt text](images/b2.jpg)
@@ -49,10 +44,11 @@ First of all, we type in a number and set the threshold:
 ![alt text](images/flipper_length_mm.jpg)
 ![alt text](images/body_mass_g.jpg)
 
+# 3. Principal Component Analysis (PCA)
 ![alt text](images/c1.jpg)
 ![alt text](images/c2.jpg)
 
-
+# 4. K-Means Clustering
 ![alt text](images/d1.jpg)
 ![alt text](images/Change_in_Inertia.jpg)
 ![alt text](images/Interia_Trend.jpg)
@@ -63,12 +59,14 @@ First of all, we type in a number and set the threshold:
 ![alt text](images/3_vs_1_PCproj.jpg)
 ![alt text](images/1_vs_2_PCproj.jpg)
 
+# 5. Hierarchical Clustering
 ![alt text](images/e1.jpg)
 ![alt text](images/den.jpg)
 ![alt text](images/e2.jpg)
 ![alt text](images/e3.jpg)
 ![alt text](images/hc.jpg)
 
+# 6. Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
 ![alt text](images/f1.jpg)
 ![alt text](images/f2.jpg)
 ![alt text](images/N_clusters_DBSCAN.jpg)
