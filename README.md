@@ -125,7 +125,7 @@ It is obvious that each cluster is separated from others in at least one of the 
 
 # 5. Hierarchical Clustering
 
-The second unsupervised method used is Hierarchical Clustering. The idea of Hierarchical Clustering is simply comparing ecah instance with other instances. Once the smallest comparison is found, the two instances will be grouped into one. This process repeats when all grouping is done.
+The second unsupervised method used is Hierarchical Clustering. The idea of Hierarchical Clustering is simply comparing ecah instance with other instances. Once the closest instance is found, the two instances will be grouped into one. This process repeats when all grouping is done.
 
 A dendrogram can be used to show the grouping:
 
@@ -141,7 +141,7 @@ Now lets look at the result!
 ![alt text](images/e3.jpg)
 ![alt text](images/hc.jpg)
 
-The results shows that Hierarchical Clustering gives 4 clusters. Although this result is different than that of the k-means method, the Hierarchical Clustering still seems work reasonalbe, which each cluster is completely isolated and not overlapping with others.
+The results shows that Hierarchical Clustering gives 4 clusters. Although this result is different than that of the k-means method, the result of Hierarchical Clustering also seems reasonalbe: each cluster is completely isolated and not overlapping with others.
 
 # 6. Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
 
