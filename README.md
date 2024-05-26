@@ -24,7 +24,17 @@ Let's do this.
 # 1. Data Access and Processing
 
 Let's look at the original dataset, there are 5 variables, which are their biological features:
+
 ![alt text](images/a1.jpg)
+
+As we can see, there are 5 biological features:
+
+1. culmen_length_mm: the distance from the tip of the beak to the feather line.
+2. culmen_depth_mm: the "vertical" length of the culmen
+3. flipper_length_mm: the length of the wing
+4. body_mass_g
+5. sex
+ 
 
 First step to clean the dataset is to see if there is any outliner(s). Through the statistics info, the minimum and maximum flipper length do not make sense, while one is negative and the other one is much higher than the mean. On the other hand, the numerical variables seems fine.
 
