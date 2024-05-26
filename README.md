@@ -54,10 +54,10 @@ Two conditional statements can take care of the outliners:
 For the gender column, there is an instance that the penguin's gender is not male and female, which should be taken out. Now, the dataset is ready:
 ![alt text](images/a4.jpg)
 
-As we would like to use the "sex" variable, dummy variables are generated: the male and female column:
+For the "sex" variable, dummy variables are generated: the male and female column:
 ![alt text](images/a5.jpg)
 
-And change the columns into binary integer, now let's see the statistics info:
+And change the two columns into binary integer, now let's see the statistics info again:
 ![alt text](images/a6.jpg)
 
 # 2. Data Visualization
