@@ -66,7 +66,7 @@ A simple pie chart to understand the gender situation:
 ![alt text](images/b1.jpg)
 ![alt text](images/gender.jpg)
 
-As per the continuous variables, a for-loop is used to see the distributions of each variable:
+For the continuous variables, a for-loop is used to see the distributions of each variable:
 ![alt text](images/b2.jpg)
 
 How long are the culmens?
@@ -83,7 +83,7 @@ The birds' body mass?
 
 # 3. Principal Component Analysis (PCA)
 
-In this project, although this is not a large dataset, but it is still worth to use PCA to reduce the dimensionality of the dataset and hence the computation cost and time. It is done by transforming the dataset linearly into a new coordinate system, while the axes of the system are called "principal component". To reduce the dimensionality, only several axes are kept such that maximize the variance (set by the user) explained by the data.
+In this project, although this is not a large dataset, but it is still worth to use PCA to reduce the dimensionality of the dataset and hence the computation cost and time. It is done by transforming the dataset linearly into a new coordinate system, with the axes of the system are often called "principal component". To reduce the dimensionality, only several axes are kept such that maximize the variance (set by the user) explained by the data.
 
 To simplify the calculation, all variables are scaled with the standard normal distribution:
 ![alt text](images/c1.jpg)
