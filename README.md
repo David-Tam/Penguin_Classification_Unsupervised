@@ -85,7 +85,7 @@ The birds' body mass?
 
 In this project, although this is not a large dataset, but it is still worth to use PCA to reduce the dimensionality of the dataset and hence the computation cost and time. It is done by transforming the dataset linearly into a new coordinate system, with the axes of the system are often called "principal component". To reduce the dimensionality, only several axes are kept such that maximize the variance (set by the user) explained by the data.
 
-To simplify the calculation, all variables are scaled with the standard normal distribution:
+To simplify the calculation, all variables are firstly scaled with the standard normal distribution:
 ![alt text](images/c1.jpg)
 
 After the transformation, the data was fitted and the 3 principal components were chosen so that 95% of the variance can be explained by the data:
