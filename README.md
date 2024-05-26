@@ -95,9 +95,9 @@ With the transformed data and 3 axes only, now we can move to the unspervised me
 
 # 4. K-Means Clustering
 
-K-Means Clustering is the first method used. A set of number, from k=1 to k=9, is set to be the number of clusters and see which number is the best, with the use of the Elbow method.
+K-Means Clustering is the first method used. A range of number, from k=1 to k=9, is set to be the number of clusters and see which one gives the best result, with the use of the Elbow method.
 
-For each k, random k points are selected in the dataset, for calculating the mean Euclidean distance and variance (or inertia, if preferred) for each selected point. Note that the k points which give the lowest total variance are selected for each k.
+For each k, random k points are selected in the dataset to calculate the mean Euclidean distance and variance (or inertia, if preferred). Note that the k points which gives the lowest total variance are selected for each k.
 
 ![alt text](images/d1.jpg)
 
@@ -105,7 +105,7 @@ To select the reasonable k, as mentioned, Elbow method is used. The plot for the
 
 ![alt text](images/Change_in_Inertia.jpg)
 
-This can also be visualized by just plotting the lowest variance for each k. The variance keeps almost the same after k=6. As a result, we use k=6 as the number of cluster.
+This can also be visualized by just plotting the lowest variance for each k. The variance keeps almost the same after k=6. As a result, it is reasonable to set k=6 for the number of cluster.
 
 ![alt text](images/Interia_Trend.jpg)
 
