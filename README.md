@@ -1,6 +1,11 @@
 # Penguins_Unsupervised_Classification
 
-This is a project that aims to group penguins with 3 unsupervised machine learning methods: K-Means Clustering, Hierarchical Clustering and Density-Based Spatial Clustering of Applications with Noise (DBSCAN). The dataset, can be found in the current directory in .csv format.
+This is a project that aims to group penguins with 3 unsupervised machine learning methods: K-Means Clustering, Hierarchical Clustering and Density-Based Spatial Clustering of Applications with Noise (DBSCAN).
+
+The dataset was used in a published research:
+Gorman KB, Williams TD, Fraser WR (2014) Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins (Genus Pygoscelis). PLOS ONE 9(3): e90081. https://doi.org/10.1371/journal.pone.0090081
+
+Also, it can be found in the current directory in .csv format.
 
 The project is presented in the following structure:
 
@@ -36,7 +41,7 @@ There are 5 biological features:
 5. sex
  
 
-First step to clean the dataset is to see if there is any outliner(s). Through the statistics info, the minimum and maximum flipper length do not make sense, while one is negative and the other one is much higher than the mean. On the other hand, the numerical variables seems fine.
+First step is to see if there is any outliner(s) and clean the dataset. Through the statistics info, the minimum and maximum flipper length do not make sense, while one is negative and the other one is much higher than the mean. On the other hand, the numerical variables seems fine.
 
 ![alt text](images/a2.jpg)
 
