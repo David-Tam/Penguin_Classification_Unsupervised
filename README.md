@@ -145,9 +145,9 @@ The results shows that Hierarchical Clustering gives 4 clusters. Although this r
 
 # 6. Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
 
-The general idea of the DBSCAN is to see each instance as a center of circle, if a minimum number of points are within the circle with a certain radius, that instance is seen as "core points". All "core points" with their extended points (or "border points") are considered as a cluster. Note that the radius and minimum number are the parameters chosen by the user.
+The general idea of the DBSCAN is to see each instance as a center of circle, if a minimum number of points are within the circle with a certain radius, that instance is seen as "core points". All "core points" and their extended points (or "border points") are considered as a cluster. Note that the radius and minimum number are the parameters chosen by the user.
 
-In this case, different combinations of radius (from 0.15 to 0.8) and minimum points (2 to 6) are tested out. DBSCAN are run with the combination and each run returns the number of cluster and a silhouette score, which simply shows the quality of clustering. 
+In this case, different combinations of radius (from 0.15 to 0.8) and minimum points (2 to 6) are tested out. DBSCAN are run with the combinations and each run returns the number of cluster and a silhouette score, which simply shows the quality of clustering.
 
 ![alt text](images/f1.jpg)
 ![alt text](images/f2.jpg)
@@ -164,12 +164,12 @@ From the tables, the parameters are clear now. Also, it is determined that there
 
 ![alt text](images/f3.jpg)
 
-Let's run DBSCAN again with the above parameters and see the size for each clusters. We notice there is cluster -1, which is the outliner, with a size of 2:
+Let's run DBSCAN again with the chosen parameters and see the size for each clusters. The table below shows 4 main clusters (cluster 0 to 3) and there is a cluster -1, which is the outliner, with a size of 2:
 
 ![alt text](images/f4.jpg)
 ![alt text](images/f5.jpg)
 
-The final result of DBSCAN, again, can be shown with a 3D scatter plot with the principal components. The outliners are shown in the "+" style:
+The final result of the DBSCAN, again, can be shown with a 3D scatter plot with the principal components. The outliners are shown in the "+" style:
 
 ![alt text](images/f6.jpg)
 ![alt text](images/DBSCAN.jpg)
