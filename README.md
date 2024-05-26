@@ -145,7 +145,7 @@ The results shows that Hierarchical Clustering gives 4 clusters. Although this r
 
 # 6. Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
 
-The last method is DBSCAN. The general idea is to see each instance as a center of circle, if a minimum number of points are within the circle with a certain radius, that instance is seen as "core points". All "core points" with their extended points (or "border points") are considered as a cluster. Note that the radius and minimum number are the parameters chosen by the user.
+The general idea of the DBSCAN is to see each instance as a center of circle, if a minimum number of points are within the circle with a certain radius, that instance is seen as "core points". All "core points" with their extended points (or "border points") are considered as a cluster. Note that the radius and minimum number are the parameters chosen by the user.
 
 In this case, different combinations of radius (from 0.15 to 0.8) and minimum points (2 to 6) are tested out. DBSCAN are run with the combination and each run returns the number of cluster and a silhouette score, which simply shows the quality of clustering. 
 
