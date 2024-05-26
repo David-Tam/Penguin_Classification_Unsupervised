@@ -51,7 +51,7 @@ This is more obvious to see this in a boxplot:
 Two conditional statements can take care of the outliners:
 ![alt text](images/a3.jpg)
 
-For the gender column, let's take out the instance(s) that the penguin's gender is not male and female. We see that one more instance is taken out. Now, the dataset is ready:
+For the gender column, there is an instance that the penguin's gender is not male and female, which should be taken out. Now, the dataset is ready:
 ![alt text](images/a4.jpg)
 
 Next step is to split the gender column into male and female column:
