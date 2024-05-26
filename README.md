@@ -62,7 +62,7 @@ And change the two columns into binary integer, now let's see the statistics inf
 
 # 2. Data Visualization
 
-A simple pie chart can help us understand the gender situation in the dataset:
+A simple pie chart to understand the gender situation:
 ![alt text](images/b1.jpg)
 ![alt text](images/gender.jpg)
 
