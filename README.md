@@ -41,17 +41,17 @@ There are 5 biological features:
 5. sex
  
 
-First step is to see if there is any outliner(s) and clean the dataset. Through the statistics info, the minimum and maximum flipper length do not make sense, while one is negative and the other one is much higher than the mean. On the other hand, the numerical variables seems fine.
+First step is to see if there is any outliner(s) and clean the dataset. Through the statistics info, the minimum and maximum flipper length do not make sense, while one is negative and the other one is much higher than the mean. On the other hand, other numerical variables seems fine.
 
 ![alt text](images/a2.jpg)
 
-This is more obvious in a boxplot:
+This is more obvious to see this in a boxplot:
 ![alt text](images/boxplot.jpg)
 
-Two conditional statements would take care of the outliners:
+Two conditional statements can take care of the outliners:
 ![alt text](images/a3.jpg)
 
-Now for the gender column, conditional statement for taking out instance that the gender of penguin is not male and female. We see that one more instance is taken out. Now, the dataset is ready:
+For the gender column, let's take out the instance(s) that the penguin's gender is not male and female. We see that one more instance is taken out. Now, the dataset is ready:
 ![alt text](images/a4.jpg)
 
 Next step is to split the gender column into male and female column:
