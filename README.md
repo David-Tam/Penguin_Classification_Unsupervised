@@ -175,7 +175,7 @@ The final result of the DBSCAN, again, can be shown with a 3D scatter plot with 
 ![alt text](images/DBSCAN.jpg)
 
 *********************************************************************************************************************
-Conclusion, Improvement and Insight
+# Conclusion, Improvement and Insight
 
 In this study, three unsupervised machine learning models were applied to classify unlabelled peinguins. The results are slighly different: K-means model returns 6 clusters, Hierarchical returns 4 and DBSCAN returns 5 with 1 cluster for outliner. Although the results are slightly different, it is suggested that extra variables should be included for more accurate classification.
 
