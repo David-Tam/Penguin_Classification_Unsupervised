@@ -27,7 +27,7 @@ Let's look at the original dataset, there are 5 variables, which are their biolo
 
 ![alt text](images/a1.jpg)
 
-As we can see, there are 5 biological features:
+There are 5 biological features:
 
 1. culmen_length_mm: the distance from the tip of the beak to the feather line.
 2. culmen_depth_mm: the "vertical" length of the culmen
