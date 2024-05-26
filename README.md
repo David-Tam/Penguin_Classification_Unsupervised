@@ -173,3 +173,10 @@ The final result of the DBSCAN, again, can be shown with a 3D scatter plot with 
 
 ![alt text](images/f6.jpg)
 ![alt text](images/DBSCAN.jpg)
+
+*********************************************************************************************************************
+Conclusion, Improvement and Insight
+
+In this study, three unsupervised machine learning models were applied to classify unlabelled peinguins. The results are slighly different: K-means model returns 6 clusters, Hierarchical returns 4 and DBSCAN returns 5 with 1 cluster for outliner. Although the results are slightly different, it is suggested that extra variables should be included for more accurate classification.
+
+This classification study is important: it shows that a way to processing a huge amount of data and identify target group(s) based on the purpose. Using this peinguin classification as our example, researcher can easily identify new peinguin spices in short amount of time, with a known dataset(s) as a base and a large dataset for new analysis. Another example would be about wildlife conservation, biologist are able to have a reasonable guess on how to take care or conserve a new penguin spices after they identify two or thress closest penguin spices/ family.
